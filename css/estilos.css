@@ -1,0 +1,228 @@
+/*Contenedor de todo el body*/
+body {
+    font-family: Calibri;
+    color:green;
+    border: solid green;
+    padding: 1em;
+    margin: 1em;
+}
+/*Contenedor del header*/
+header {
+    text-align: center;
+    border: solid green;
+    height: 100%;
+    width: 100%;
+    font-size: 2em;
+    background-color: lightgreen;    
+}
+/*Contenedor del menú*/
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;   
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: solid green;
+  }
+/*Contenedor del main*/
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid green;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+main a {
+    font-size: 2em;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+.menu a {
+    font-size: 2rem;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+/*Contenedor de imágenes*/
+.imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    gap: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.imagen2 {
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.contenedor {
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* Para que el texto del enlace se posicione superpuesto en la imagen*/
+.imagen a {
+  position: relative; 
+}
+
+.texto-superpuesto {
+  position: absolute;
+  bottom: 10px; 
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  font-weight: bold;
+  pointer-events: none; 
+}
+
+/*Estilo general para las imágenes*/
+img {
+    border: solid green;
+    border-radius: 20px;
+}
+/*Clase para las imágenes "hijas" del contenedor "imagen".*/
+.imagen img {
+    flex-grow: 1;    
+    height: auto;
+    object-fit: cover;
+}
+/*Contenedor del footer*/
+.footer {
+    border: solid green;
+    padding: 1em;
+  }
+  
+.redes-sociales {
+    display: flex;
+    gap: 1rem;
+  }
+  
+.redes-sociales img {
+    width: 40px;  
+    height: auto;
+    max-width: 100%;
+    object-fit: contain; 
+  }
+
+.pie {
+    display: flex;
+    justify-content: flex-end;  
+    gap: 1rem;  
+    flex-wrap: wrap;  
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+/*bollonews_detalles*/
+
+.parrafo {
+  height: auto;
+  padding: 20px 20px;
+  font-size: 17px;
+  line-height: 1.5;
+  background: #fff;
+  border-radius: 5px;
+  text-align: justify;
+  pointer-events: all;
+}
+
+.parrafo img {
+  width: 30%;
+  border-radius: 5px;
+  float: left;
+  margin-right: 1em;
+}
+/*Formulario contacto*/
+.formulario-container {
+    background: #ffffff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-grupo {
+    margin-bottom: 1em;
+    margin-right: 1em;
+    padding-right: 2em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: gree;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-enviar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: green;
+}
+
+.mainnoticiadia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: solid green;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
